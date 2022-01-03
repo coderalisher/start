@@ -39,8 +39,8 @@ $tg="tg://user?id=$id";
 $contact=$ms->contact;
 $nom=$ms->contact->phone_number;
 $type=$ms->chat->type;
-$kun=date("d",strtotime("3 hour"));
-$soat=date("H:i:s",strtotime("3 hour"));
+$kun=date("d",strtotime("5 hour"));
+$soat=date("H:i:s",strtotime("5 hour"));
 
 if($t=="/start" or $t=="/start@Group_clean_uzbot"){
 bot('sendMessage',[
