@@ -1,7 +1,7 @@
 <?php
 
 ob_start();
-define('API_KEY',"5051984039:AAEde_2xQssn0OnmevrMriPxXBh-aQkYDDc");
+define('API_KEY',"5051984039:AAHGiYTQi4jwrg8AEW8Lta0rnKWMaOIvFe4");
 $admin = "2067700229";  ///admin id ozinğniń idñdi bilmeseñ @my_id_bot  qa start bas
 $botname = "ChannelNBPBot";  ///bot useri
 $kanal = "@U_coder";  // kanal useri
@@ -201,7 +201,7 @@ if(stripos($tx,"Kim bar") !== false){
 bot('sendmessage',[
 'reply_to_message_id'=>$mid,
 'chat_id'=> $cid,
-'text'=>"*Men barman tanisip otirayiq*",
+'text'=>"*Men barman tanisiip otirayiq*",
 'parse_mode'=>'markdown',
 ]);
 }
